@@ -23,11 +23,11 @@ video {
   overflow-x: hidden;
 }
 .overlay-desc {
-  background: rgba(134, 128, 128, 0.71);
+  background: rgba(37, 37, 37, 0.71);
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
 }
 h1 {
@@ -88,7 +88,7 @@ p {
   font-size: 2em;
   color: white;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 120px;
 }
 
 .jumbotron-text h1 {
