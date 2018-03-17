@@ -8,6 +8,46 @@ body {
   box-sizing: border-box
 }
 
+
+body {
+  background: #333;
+
+}
+.video-container {
+  position: relative;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  overflow-x: hidden;
+}
+.overlay-desc {
+  background: rgba(134, 128, 128, 0.71);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
 /*NAVBAR*/
 .navbar {
   background-color: #31b0d5;
@@ -48,7 +88,7 @@ body {
   font-size: 2em;
   color: white;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 0px;
 }
 
 .jumbotron-text h1 {
